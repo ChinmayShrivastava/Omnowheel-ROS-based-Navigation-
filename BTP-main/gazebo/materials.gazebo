@@ -1,0 +1,182 @@
+<?xml version="1.0" ?>
+<robot name="Only" xmlns:xacro="http://www.ros.org/wiki/xacro" >
+
+<xacro:property name="silver" value="Gazebo/Silver" />
+<xacro:property name="red" value="Gazebo/Red" />
+<xacro:property name="blue" value="Gazebo/Blue" />
+<xacro:property name="green" value="Gazebo/Green" />
+<xacro:property name="black" value="Gazebo/Black" />
+
+
+<gazebo reference="base_link">
+  <material>${silver}</material>
+
+  <gravity>true</gravity>
+</gazebo>
+
+<gazebo reference="RubberWheel__19__1">
+  <material>${black}</material>
+
+</gazebo>
+
+<gazebo reference="RubberWheel__20__1">
+  <material>${black}</material>
+
+</gazebo>
+
+<gazebo reference="RubberWheel__18__1">
+  <material>${black}</material>
+
+</gazebo>
+
+<gazebo reference="RubberWheel__16__1">
+  <material>${black}</material>
+
+</gazebo>
+
+<gazebo reference="RubberWheel__17__1">
+  <material>${black}</material>
+
+</gazebo>
+
+<gazebo reference="RubberWheel__13__1">
+  <material>${black}</material>
+
+</gazebo>
+
+<gazebo reference="RubberWheel__14__1">
+  <material>${black}</material>
+
+</gazebo>
+
+<gazebo reference="RubberWheel__15__1">
+  <material>${black}</material>
+
+</gazebo>
+
+<gazebo reference="RubberWheel__11__1">
+  <material>${black}</material>
+
+</gazebo>
+
+<gazebo reference="RubberWheel__12__1">
+  <material>${black}</material>
+
+</gazebo>
+
+<gazebo reference="RubberWheel__22__1">
+  <material>${black}</material>
+
+</gazebo>
+
+<gazebo reference="RubberWheel__21__1">
+  <material>${black}</material>
+
+</gazebo>
+
+<gazebo reference="RubberWheel__26__1">
+  <material>${black}</material>
+
+</gazebo>
+
+<gazebo reference="RubberWheel__24__1">
+  <material>${black}</material>
+
+</gazebo>
+
+<gazebo reference="RubberWheel__23__1">
+  <material>${black}</material>
+
+</gazebo>
+
+<gazebo reference="RubberWheel__29__1">
+  <material>${black}</material>
+
+</gazebo>
+
+<gazebo reference="RubberWheel__27__1">
+  <material>${black}</material>
+
+</gazebo>
+
+<gazebo reference="RubberWheel__30__1">
+  <material>${black}</material>
+
+</gazebo>
+
+<gazebo reference="RubberWheel__28__1">
+  <material>${black}</material>
+
+</gazebo>
+
+<gazebo reference="RubberWheel__25__1">
+  <material>${black}</material>
+
+</gazebo>
+
+<gazebo reference="RubberWheel__8__1">
+  <material>${black}</material>
+
+</gazebo>
+
+<gazebo reference="RubberWheel__6__1">
+  <material>${black}</material>
+
+</gazebo>
+
+<gazebo reference="RubberWheel__7__1">
+  <material>${black}</material>
+
+</gazebo>
+
+<gazebo reference="RubberWheel__10__1">
+  <material>${black}</material>
+
+</gazebo>
+
+<gazebo reference="RubberWheel__9__1">
+  <material>${black}</material>
+
+</gazebo>
+
+<gazebo reference="RubberWheel__3__1">
+  <material>${black}</material>
+
+</gazebo>
+
+<gazebo reference="RubberWheel__2__1">
+  <material>${black}</material>
+
+</gazebo>
+
+<gazebo reference="RubberWheel__4__1">
+  <material>${black}</material>
+
+</gazebo>
+
+<gazebo reference="RubberWheel__5__1">
+  <material>${black}</material>
+
+</gazebo>
+
+<gazebo reference="RubberWheel__1__1">
+  <material>${black}</material>
+
+</gazebo>
+
+<gazebo reference="WheelBase__3__1">
+  <material>${red}</material>
+
+</gazebo>
+
+<gazebo reference="WheelBase__5__1">
+  <material>${blue}</material>
+
+</gazebo>
+
+<gazebo reference="WheelBase__1__1">
+  <material>${green}</material>
+
+</gazebo>
+
+</robot>
